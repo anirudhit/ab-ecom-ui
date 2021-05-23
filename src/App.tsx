@@ -1,12 +1,11 @@
 import React from 'react';
 import './App.css';
-import { Button } from 'antd';
+import { MainWrapper }from './components/Eab/MainWrapper';
 
 const App = () => {
   return (
-    <div className="App">
-      <Button type="primary">EaB</Button>
-    </div>
+    <MainWrapper />
+
   );
 }
 
